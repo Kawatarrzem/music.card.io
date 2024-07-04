@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(pattern-background-desktop.svg) ;
+    background-repeat: repeat-x;
+    background-color: hsl(225, 100%, 94%) ;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+    
+main{
+    width: 450px;
+    background-color: white;
+    border-radius: 24px;
+    overflow: hidden;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    box-shadow: 5px 5px 5px hsl(225, 100%, 94%);
+    margin: 20px;
+    padding-bottom: 50px;
+    
+}
+.card{
+    margin: 0 44px 44px 48px;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+h2,h4{
+ font-weight: 900;
+ color: hsl(223, 47%, 23%);
+}
+h2{
+    margin-top:40px ;
+    margin-bottom:24px ;
+    margin-left:0px ;
+    margin-right: 0px;
+}
+p{
+    font-weight:500 ;
+    color:hsl(224, 23%, 55%) ;
+}
+.plan{
+    background-color:hsl(225, 100%, 98%) ;
+    border-radius: 12px;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0px 20px 0px;
+
+}
+.plan .imusic{
+    padding-left: 18px;
+}
+.plan .price{
+    padding-right: 80px;
+}
+.plan .price h4 {
+    margin-bottom: 5px;
+
+}
+.plan .price h4{
+    margin-bottom: 5px;
+}
+.plan .change {
+    padding-right: 18px;
+    font-size: 14px;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+button{
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 80%;
+    height: 50px;
+    border-radius: 12px;
+    box-shadow: 15px 15px 15px hsl(225, 100%, 94%) ;
+    margin-bottom: 32px;
+}
+
+
+span {
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+.change, button, span {
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.change:hover {
+    color: hsl(245, 75%, 52%);
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+
+button:hover {
+    background-color:hsl(245, 75%, 52%);
+    opacity: 0.8;
+}
+
+span:hover {
+    color: hsl(223, 47%, 23%);
+}
